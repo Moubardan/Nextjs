@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import { getAllTasks } from '@/lib/task-db';
-import TaskManager from '@/components/task-manager';
+import { getAllTasks } from '../../lib/task-db';
+import TaskManager from '../../components/task-manager';
 
 export default async function TasksPage() {
   const tasks = getAllTasks();

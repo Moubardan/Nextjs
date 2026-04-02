@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useTransition } from 'react';
-import { createTaskAction, updateTaskAction, deleteTaskAction } from '@/app/tasks/actions';
+import { createTaskAction, updateTaskAction, deleteTaskAction } from '../app/tasks/actions';
 
 export default function TaskManager({ initialTasks }) {
   const [tasks, setTasks] = useState(initialTasks);

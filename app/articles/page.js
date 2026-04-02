@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { mockArticles } from '@/lib/data';
+import { mockArticles } from '../../lib/data';
 
 export default function ArticlesPage() {
   return (

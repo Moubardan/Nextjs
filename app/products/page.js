@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { mockProducts } from '@/lib/data';
+import { mockProducts } from '../../lib/data';
 
 export default async function ProductsPage() {
   

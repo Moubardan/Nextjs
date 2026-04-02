@@ -2,7 +2,7 @@
 
 import { z } from 'zod';
 import { revalidatePath } from 'next/cache';
-import { createTaskInDb, updateTaskInDb, deleteTaskInDb } from '@/lib/task-db';
+import { createTaskInDb, updateTaskInDb, deleteTaskInDb } from '../../lib/task-db';
 
 const taskInputSchema = z.object({
   title: z.string().min(1, 'Le titre est requis').max(200),
